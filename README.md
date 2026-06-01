@@ -132,7 +132,7 @@ streamlit run Streamlit app.py
 ---
 
 ## Important Notes
-Data Cleaning Workflow
+###Data Cleaning Workflow
 
 The original dataset was provided in Excel (.xlsx) format. During the data cleaning process, the dataset was cleaned, standardized, and exported as:
 
@@ -182,9 +182,10 @@ Please note that the null values present in the original dataset were carefully 
 
 For example:
 
-Customer and driver ratings are naturally unavailable (null) when a ride is cancelled, since the trip was never completed and no rating can be provided.
-Successful rides do not have cancellation reasons, as no cancellation occurred.
-Certain cancellation-related fields may be unavailable depending on whether the ride was cancelled by the customer or the driver.
+*Customer and driver ratings are naturally unavailable (null) when a ride is cancelled, since the trip was never completed and no rating can be provided.
+*Successful rides do not have cancellation reasons, as no cancellation occurred.
+*Certain cancellation-related fields may be unavailable depending on whether the ride was cancelled by the customer or the driver.
+
 Therefore:
 
 No rows containing null values were removed.
