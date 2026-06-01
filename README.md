@@ -107,13 +107,13 @@ pip install pandas matplotlib streamlit
 python ola_read_clean.py
 ```
 
-### 4. Run cleaned data and create a db
+### 4. Read cleaned data and create a db
 
 ```bash
 python ola_main.py
 ```
 
-### 4. Launch Streamlit Dashboard
+### 5. Launch Streamlit Dashboard
 
 ```bash
 streamlit run Streamlit app.py
