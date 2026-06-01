@@ -141,9 +141,13 @@ ola_clean.csv
 This cleaned CSV file serves as the single source for:
 
 -SQLite database creation
+
 -SQL querying and analysis
+
 -Streamlit dashboard
+
 -Power BI reporting
+
 -Database Creation (Required Before Querying & Streamlit)
 
 Before running any SQL queries or launching the Streamlit application, a SQLite database must be created using the cleaned dataset.
