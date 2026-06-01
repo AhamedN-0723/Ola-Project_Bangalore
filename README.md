@@ -49,6 +49,7 @@ Ola-Ride-Booking-Analytics/
 │
 ├── Streamlit/
 │   └── app.py
+│   └── requirements.txt
 │
 ├── visualization/
 │   └── powerbi.pbix
