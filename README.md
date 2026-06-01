@@ -155,6 +155,7 @@ Before running any SQL queries or launching the Streamlit application, a SQLite 
 Run the following code after generating ola_clean.csv:
 
 import pandas as pd
+
 import sqlite3 as sq
 
 df = pd.read_csv('ola_clean.csv')
