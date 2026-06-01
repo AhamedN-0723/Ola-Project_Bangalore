@@ -183,8 +183,8 @@ Please note that the null values present in the original dataset were carefully 
 For example:
 
 *Customer and driver ratings are naturally unavailable (null) when a ride is cancelled, since the trip was never completed and no rating can be provided.
-*Successful rides do not have cancellation reasons, as no cancellation occurred.
-*Certain cancellation-related fields may be unavailable depending on whether the ride was cancelled by the customer or the driver.
+
+*Successful rides do not have cancellation reasons, as no cancellation occurred. Certain cancellation-related fields may be unavailable depending on whether the ride was cancelled by the customer or the driver.
 
 Therefore:
 
@@ -194,9 +194,11 @@ This approach ensures that business-critical information is retained and analyti
 
 Examples include:
 
-Cancellation reasons for successful rides
-Driver-related fields for customer-cancelled bookings
-Customer-related fields for driver-cancelled bookings
+*Cancellation reasons for successful rides
+
+*Driver-related fields for customer-cancelled bookings
+
+*Customer-related fields for driver-cancelled bookings
 
 These values are intentionally marked as "NA" because they are not applicable to those specific booking scenarios.
 
