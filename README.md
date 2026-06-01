@@ -118,6 +118,8 @@ python ola_main.py
 
 ```bash
 streamlit run Streamlit app.py
+
+deployed web app- https://k6wconkbtzeyxqjdgnlyhp.streamlit.app/
 ```
 
 ---
