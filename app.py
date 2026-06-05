@@ -128,7 +128,7 @@ elif case_study == "7. All rides where payment was made using UPI".upper():
      payment_method = 'UPI';
  '''
  df = pd.read_sql(query_upi, conn)
- st.subheader("Rides by payment method".upper())
+ st.subheader("Rides by UPI payment method".upper())
  st.dataframe(df)
  st.write("Helps analyze digital payment adoption and customer payment preferences.")
 
