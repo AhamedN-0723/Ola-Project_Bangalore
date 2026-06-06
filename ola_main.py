@@ -98,7 +98,7 @@ print('\n7. All rides where payment was made using UPI:\n', pd.read_sql(query_up
 query_avg_rating = f'''
 SELECT
     vehicle_type,
-    ROUND(AVG(driver_ratings),2) AS avg_rating
+    ROUND(AVG(customer_rating),2) AS avg_rating
 FROM
     {table}
 GROUP BY vehicle_type
